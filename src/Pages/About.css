@@ -1,0 +1,249 @@
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}    
+
+
+.Home-container-one h1{
+
+    max-width: 1280px;
+margin: 50px auto;
+color: azure;
+}
+
+
+.Home-container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+
+
+.Home-card-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+margin-bottom: 58px;
+
+    
+    }
+
+
+    .Home-card-body p{
+
+
+max-width: 370px;
+margin-bottom: -5px;
+justify-content: center;
+display: flex;
+margin-left: 12px;
+    }
+    
+    
+
+    .Home-cards-one{
+
+        border: 2px solid rgb(170, 103, 125);
+        
+        color: rgb(89, 145, 17);
+        
+            }
+        
+            .Home-card-img{
+        margin-bottom: 40px;
+        
+        
+            }
+
+            .Home-cards-two{
+
+                border: 2px solid rgb(76, 83, 7);
+                
+                color: rgb(13, 194, 218);
+                
+                    }
+                
+                    .Home-card-img{
+                margin-bottom: 40px;
+                
+                
+                    }
+        
+
+
+
+
+
+    .Home-cards-three{
+
+border: 2px solid rgb(102, 104, 95);
+
+color: rgb(253, 255, 239);
+
+    }
+
+    .Home-card-img{
+margin-bottom: 40px;
+
+
+    }
+
+
+    .pet-video-container h1{
+
+    display: flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+color: aliceblue;
+
+
+
+    }
+
+
+    .pet-video-container video{
+
+width: 550px;
+height: 800px;
+margin: 50px auto;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+background: rgb(103, 104, 101);
+border: none;
+
+    }
+
+    .petvideo1{
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        box-shadow: 1px 0px 5px 5px rgb(182, 181, 196);        
+
+    }
+
+
+
+    .about-container-end h1{
+
+border-radius: 10px;
+        text-align: center;
+        color: cornsilk;
+        margin: 50px auto;
+        max-width: 1400px;
+        background-color: rgb(75, 78, 68);
+
+
+
+    }
+
+
+
+    @media all and (max-width: 1024px){
+
+
+        .Home-container-one h1{
+
+        justify-content: center;
+        max-width: 800px;
+text-align: center;
+
+
+
+        }
+
+        .about-container-end h1{
+   
+            justify-content: center;
+            max-width: 820px;
+    text-align: center;
+    
+    
+
+        }
+
+
+    }
+
+
+    @media all and (max-width: 768px){
+
+
+        .Home-container-one h1{
+
+        justify-content: center;
+        max-width: 600px;
+text-align: center;
+
+
+
+        }
+
+        .about-container-end h1{
+   
+            justify-content: center;
+width: 580px;
+margin-left: 90px;
+
+    text-align: center;
+    
+    
+
+        }
+
+
+    }
+
+
+    @media all and (max-width: 425px){
+
+
+        .Home-container-one{
+        
+            width: 500px;
+            margin-left: 70px;
+
+
+        }
+
+        .Home-card-container{
+
+
+            width: 500px;
+            margin-left: 70px;
+
+
+
+        }
+
+        .pet-video-container{
+
+
+            width: 550px;
+            margin-left: 40px;
+
+
+        }
+
+
+        .about-container-end h1{
+   
+width: 580px;
+margin-left: 30px;
+    
+
+        }
+
+
+    }

@@ -1,0 +1,314 @@
+video{
+
+    border-radius: 20px;
+    border: 10px solid rgb(65, 114, 114);
+    margin-top: 59px;
+     width: 100%;
+     height: 70vh;
+    border: none;
+        }
+    
+
+.Service-container h1{
+
+max-width: 1350px;
+  margin: 50px auto;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+font-size: 38px;
+color: rgb(194, 187, 178);
+background-color: rgb(54, 43, 45);
+padding: 20px 10px 30px 40px;
+border-radius: 20px;
+box-shadow: 1px 1px 20px 5px rgb(192, 159, 122);
+
+}
+
+
+.Service-container{
+
+margin-bottom: 150px;
+
+flex-wrap: wrap;
+
+}
+
+
+.Service-container-one{
+  margin-top: 90px;
+  display: flex;
+  
+  gap: 50px;
+  
+max-width: 1800px;
+margin: 50px auto;
+
+margin-bottom: 150px;
+
+
+
+}
+
+
+
+
+.Service-container-one h1{
+
+font-family: 'Times New Roman', Times, serif;
+
+color: rgb(167, 76, 34);
+
+}
+
+
+.Service-container-one span{
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 25px;
+color: rgb(99, 53, 78);
+
+
+}
+
+
+.Service-container-two h1{
+
+  font-family: 'Times New Roman', Times, serif;
+  
+  color: rgb(38, 97, 33);
+  
+  }
+  
+  
+  .Service-container-two span{
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: rgb(52, 71, 112);
+  
+  
+  }
+
+
+.Service-container-two{
+  margin-top: 90px;
+  display: flex;
+  
+  gap: 50px;
+  
+max-width: 1800px;
+margin: 50px auto;
+
+
+  }
+  
+
+  .Service-container-three{
+
+
+    display: flex;
+    margin: 50px auto;
+justify-content: center;
+gap: 50px;
+    
+  }
+
+.cardsone{
+  color: beige;
+  box-shadow: 1px 2px 20px 5px rgb(43, 75, 13);  
+
+  text-align: center;
+}
+
+
+.cardstwo{
+
+  text-align: center;
+  box-shadow: 1px 2px 20px 5px rgb(43, 75, 13);
+  color: beige;
+
+}
+
+.Service-container-four h1{
+
+  max-width: 1350px;
+    margin: 50px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 38px;
+  color: rgb(178, 194, 190);
+  background-color: rgb(9, 182, 61);
+  padding: 20px 10px 30px 40px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 5px rgb(192, 159, 122);
+  
+  }
+  
+  @media all and (max-width: 1024px){
+
+
+  .Service-container h1{
+
+    margin-left: 25px;   
+
+
+  }
+
+  .Service-container video{
+
+
+    margin-left: 85px;
+    width: 900px;
+      
+   
+       }
+
+  }
+
+
+
+
+
+  @media all and (max-width: 768px){
+
+  .Service-container h1{
+
+width: 710px;
+margin-left: 25px;    
+    
+    }
+
+    
+    .Service-container video{
+
+
+ margin-left: 35px;
+ width: 700px;
+   
+
+    }
+
+    .Service-container-one{
+
+
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+
+margin-left: 50px;
+
+    } 
+
+    .Service-container-two{
+
+
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      
+      margin-left: 50px;
+      
+          } 
+      
+
+          .Service-container-three{
+
+         flex-wrap: wrap;
+
+
+          }
+
+
+          .Service-container-four{
+
+         display: flex;
+flex-direction: column;
+margin-left: 50px;
+width: 650px;
+
+
+
+          }
+
+          .Service-container-four video{
+
+            width: 650px;
+
+
+          }
+
+  }
+
+
+  @media all and (max-width: 425px){
+
+    .Service-container h1{
+  
+  width: 610px;
+  margin-left: 48px;    
+      
+      }
+  
+      
+      .Service-container video{
+  
+  
+   margin-left: 45px;
+   width: 600px;
+     
+  
+      }
+  
+      .Service-container-one{
+  
+  
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  
+  margin-left: 50px;
+  width: 580px;
+  
+      } 
+  
+      .Service-container-two{
+  
+  
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        width: 580px;
+        margin-left: 50px;
+        
+            } 
+        
+  
+            .Service-container-three{
+  
+           flex-wrap: wrap;
+           width: 700px;
+  
+  
+            }
+  
+  
+            .Service-container-four{
+  
+           display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 600px;
+  
+  
+  
+            }
+  
+            .Service-container-four video{
+  
+              width: 600px;
+  
+  
+            }
+  
+    }
+

@@ -1,0 +1,223 @@
+body{
+background-color: #181818;
+
+
+}
+
+*{
+border: 0px;
+padding: 0px;
+margin: 0px;
+
+}
+
+
+.navbar{
+     
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+top: 0px;
+position: sticky;
+padding: 25px;
+
+    }
+
+    
+
+
+    .navbar .navbar-item ul{
+
+
+padding: 35px;
+
+
+    }
+    
+
+
+    .navbar-head img{
+
+
+border-radius: 20px;
+
+    }
+
+
+    
+    .navbar-head{
+
+
+     list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+padding: 20px;
+font-family: sans-serif;
+color: rgb(216, 216, 224);
+
+
+
+}
+
+
+.navbar-head:hover{
+
+
+  color: cyan;
+  transition: 0.5s;
+  text-decoration: none;
+
+
+}
+    
+
+.navbar-item ul li a:hover{
+
+  color: cyan;
+
+transition: 0.5s;
+}
+
+    
+
+    
+    .navbar .navbar-item{
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+    
+    } 
+    
+
+
+    
+    .navbar-item ul li{
+    
+    font-size: 22px;
+    
+    text-decoration: none;
+    
+    display: inline;
+    
+    margin-right: 15px;
+    
+
+    
+    }
+    
+    
+    
+    .navbar-item ul li a{
+    
+      text-decoration: none;
+    color: rgb(227, 236, 228);
+      top: 0;
+      right: 0;
+      
+    
+    }
+
+
+        @media (max-width: 1024px) {
+      .navbar {
+        flex-direction: column;
+margin: 50px 50px 50px 50px;
+
+margin-left: 40px;
+
+      }
+    
+      .navbar .navbar-item {
+        position: relative;
+       display: block;   
+
+
+      }
+    
+      .navbar .navbar-item ul li{
+
+display: block;
+text-align: center;
+
+
+      }
+
+
+    }
+
+
+    
+    @media (max-width: 902px) {
+      .navbar {
+        flex-direction: column;
+margin: 50px 50px 50px 50px;
+
+margin-left: 40px;
+
+      }
+    
+      .navbar .navbar-item {
+        position: relative;
+       display: block;   
+
+
+      }
+    
+      .navbar .navbar-item ul li{
+
+display: block;
+text-align: center;
+
+
+      }
+
+
+    }
+
+
+    @media screen and (max-width: 902px) { /* adjust the threshold to your liking */
+
+      .navbar{
+      
+margin: 50px  auto;
+      
+      
+      }
+      
+      
+      
+      }
+
+
+      @media screen and (max-width: 587px) { /* adjust the threshold to your liking */
+
+        .navbar{
+        
+  margin: 50px  auto;
+ width: 650px;
+  
+        
+        }
+        
+        
+        
+        }
+
+
+        
+      @media screen and (max-width: 128px) { /* adjust the threshold to your liking */
+
+        .navbar{
+        
+  margin: 50px  auto;
+padding: 20px;
+  width: 500px;
+        }
+        
+        
+        
+        }
+
+
+

@@ -1,0 +1,251 @@
+.Singnup{
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 20px;
+    
+    }
+    
+    
+    .singup-cards-one{
+    
+    border: 1px solid cornsilk;
+    
+    box-shadow: 0px 2px 6px 6px rgb(54, 54, 44);
+    
+    }
+    
+    
+    .singup-cards-two{
+    
+      box-shadow: 0px 2px 6px 6px rgb(54, 54, 44);
+    
+      border: 1px solid cornsilk;
+      
+      
+      }
+    
+    .singup-cards-one h1{
+    
+    max-width: 500px;
+    text-align: center;
+    color: cornsilk;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    
+    }
+    
+    .singup-cards-one p{
+    
+    
+      max-width: 620px;
+      text-align: center;
+    color: azure;
+    margin-top: 20px;
+    margin-left: 8px;
+    }
+    
+    
+    .singup-cards-two h1{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      max-width: 495px;
+      text-align: center;
+      color: cornsilk;
+      font-size: 25px;
+      margin-left: 10px;
+    margin-right: 10px;
+       }
+      
+      .singup-cards-two p{
+    
+        margin-top: 20px;
+        max-width: 500px;
+       text-align: center;
+       color: azure;
+       margin-left: 10px;
+       margin-right: 10px;
+    
+      }
+      
+    
+      .Singnup-one{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+      }
+    
+      .Singnup-one h1{
+    
+    max-width: 1200px;
+    text-align: center;
+    justify-content: center;
+    margin: 50px auto;
+    
+    color: cornflowerblue;
+    
+      }
+    
+    
+      .Singnup-one img{
+    
+       
+    margin: 50px auto;
+    border: 8px  solid cornsilk;
+    
+      }
+
+
+
+      .Singnup-two h1{
+
+      text-align: center;
+      justify-content: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 80px;
+color: crimson;
+margin-top: 80px;
+      }
+
+      .Singnup-thee h1{
+
+margin-top: 180px;
+text-align: center;
+justify-content: center;
+color: rgb(180, 201, 159);
+
+
+      }
+
+
+
+      @media all and (max-width: 1024px){
+
+
+        .Singnup{
+
+flex-wrap: wrap;
+
+        }
+
+        .Singnup-one{
+
+width: 920px;
+margin-left: 50px;
+
+        }
+
+        .Singnup-one img{
+
+width: 700px;
+
+      }
+
+      .Singnup-two video{
+
+    width: 800px;
+margin: 126px;
+
+      }
+
+    }
+
+
+    @media all and (max-width: 768px){
+    
+    
+      .Singnup{
+
+margin-left: 220px;
+
+        flex-wrap: wrap;
+        
+                }
+        
+                .Singnup-one{
+        
+        width: 920px;
+        margin-left: 50px;
+        
+                }
+        
+                .Singnup-one img{
+        
+        width: 890px;
+
+        margin-left: 22px;
+              }
+
+              .Singnup-two h1{
+
+margin-left: 170px;
+width: 700px;
+
+              }
+        
+              .Singnup-two video{
+        
+            width: 800px;
+        margin: 126px;
+        
+              }
+
+
+              .Singnup-thee h1{
+
+              text-align: center;
+              justify-content: center;
+margin-left: 250px;
+
+
+              }
+    
+    
+    }
+
+
+    @media all and (max-width: 425px){
+
+      .Singnup{
+
+
+   margin-left: 500px;
+
+
+      }
+
+      .Singnup-thee h1{
+
+width: 680px;
+margin-left: 160px;
+
+      }
+
+
+    }
+    
+
+    @media all and (max-width: 375px){
+
+      .Singnup{
+
+
+   margin-left: 500px;
+
+
+      }
+
+      .Singnup-thee h1{
+
+width: 680px;
+margin-left: 160px;
+
+      }
+
+
+    }
+    
